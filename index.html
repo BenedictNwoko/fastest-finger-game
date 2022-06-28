@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>project</title>
+    
+</head>
+<body>
+    
+
+    <button id="setting-btn" class="setting-btn">
+        <svg width="32" height="32" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M45.5382 28.005C45.5381 25.7067 46.9757 23.7451 49 22.967C48.4729 20.7601 47.5993 18.6508 46.4117 16.7174C45.7202 17.0245 44.9719 17.183 44.2153 17.1827C42.8349 17.1827 41.4549 16.6565 40.4013 15.6031C38.7756 13.9775 38.4054 11.5731 39.2878 9.59077C37.355 8.4024 35.246 7.52796 33.0393 7C32.2625 9.02661 30.2998 10.4661 28 10.4661C25.7004 10.4661 23.7378 9.02661 22.9608 7C20.7541 7.52795 18.6452 8.40243 16.7124 9.59088C17.5948 11.573 17.2246 13.9773 15.5988 15.6032C14.5455 16.6566 13.1653 17.1829 11.7848 17.1829C11.0281 17.1832 10.2798 17.0247 9.58825 16.7175C8.40066 18.6508 7.52707 20.7602 7 22.967C9.02442 23.7449 10.4619 25.7067 10.4619 28.005C10.4619 30.3028 9.02563 32.2637 7.00241 33.0422C7.53062 35.2488 8.40524 37.3578 9.59372 39.2906C10.2837 38.985 11.0301 38.8274 11.7847 38.8277C13.1653 38.8277 14.5452 39.354 15.5987 40.4074C17.222 42.0306 17.5936 44.4303 16.716 46.4109C18.6489 47.5987 20.758 48.4727 22.9646 49.0001C23.7442 46.979 25.704 45.5443 28 45.5443C30.296 45.5443 32.2558 46.9788 33.0353 49.0001C35.242 48.4727 37.3511 47.5987 39.2841 46.4107C38.4066 44.4303 38.7781 42.0306 40.4015 40.4074C41.4547 39.3539 42.8349 38.8276 44.2152 38.8276C44.9629 38.8276 45.7103 38.9819 46.4063 39.2906C47.5948 37.3578 48.4694 35.2488 48.9976 33.0422C46.9744 32.2635 45.5382 30.3026 45.5382 28.005V28.005ZM28.0984 36.7391C23.2531 36.7391 19.3484 32.8125 19.3484 27.9891C19.3484 23.1655 23.2531 19.2391 28.0984 19.2391C32.9436 19.2391 36.8484 23.1655 36.8484 27.9891C36.8484 32.8125 32.9436 36.7391 28.0984 36.7391Z" fill="black"/>
+        </svg>  
+    </button>
+   
+    <div class="settings" id="settings">
+
+    <form id="settings-form">
+     <div class="settings">
+        <label for="difficulty">Difficulty</label>
+        <select id="difficulty">
+            <option value="easy">easy</option>
+            <option value="medium">medium</option>
+            <option value="hard">hard</option>
+        </select>
+    </form>
+     </div>
+     </div>
+    
+    
+    <div class="container">
+        <h2>Speed Typer</h2>
+        <p>💻 how fast can you type💻</p>
+        <small>Next Word Here:</small>
+        <h1 id="word"></h1>
+        <input type="text" id="text" autocomplete="off" placeholder="type the word above here...">
+        <p id="score-container">score: <span id="score">0</span></p>
+        <p id="time-container">Time Left:<span id="time">10s</span></p>
+
+        <div id="end-game-container"
+        class="end-game-container"> </div>
+
+    </div>
+
+
+
+
+
+    <script src="fucn.js"></script>
+</body>
+</html>

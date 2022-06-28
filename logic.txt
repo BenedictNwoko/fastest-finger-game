@@ -1,0 +1,8 @@
+focus on the input when game starts
+generate random words
+timing countdown function
+score function
+reload
+difficulty
+toggle on settings button
+game over (final score and reload)
